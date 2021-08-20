@@ -1,0 +1,83 @@
+1.Triggers
+  trigger nothing but action initiated before or after event occuurs.when we make changes in db like update,create or delete Then can provide triggering actions.
+
+2. why wrapper classes
+Wrapper Classes will convert primitive datatype into  Object.java has object oriented programming so we can work with objects for synchronization in multithreading and Uses in Entity classes and manuplating the data.
+3.string buffer and string builder
+Both Can use to make String as mutable.StringBuffer is synchronized and Thread safe.String Builder is not Thread safe
+
+4.list and set
+List is ordered Collection and allow duplicates.List can iterate both forward and backward directions.list has ListIterator().List Implementation Classes are arrayList,Linked List,vector and Stack.for fetching and retriving data arraylist is preffered and  for manuplating data LinkedList is perferred.set Interface implementation classes are hashset,sorted set. Set is unordered Collection and Duplicates  are not allowed.
+
+5.checked and unchecked
+Checked Exceptions are nothing but compile timeException like IO Exceptions.Unchecked Exceptions Nothing but Runtime exceptions like Arithmetic Exceptions,null pointerExceptions
+
+6.statement and prepared statement
+statement is used to excute the String based Queries and Prepared Statement is used to excute parameterized sql queries.it will accept the input parameters.
+6.1.jquery and js
+jquery is js library and Js is client side scripting language
+6.2.Let and var js
+Both are used for variable delaration.let getting error if not declare var getting undefined
+6.3.ID selector and Class selector
+id represented for single element and class for group of elements.id high priority while both are decleared
+6.4. procedure and functions
+both are same but procedure doesn't return and function will return
+8.Generics
+Generics can perform Data Type Safe operations and memory management
+9.java-7 and 8
+Java-8:
+   Functional Interfaces
+   Lambda Expressions
+   Method References
+   Stream APIs
+   OPtional Classes
+   String Joiners
+   Default and static methods in Interface
+
+java-7
+
+try-with resource
+String in switch Statements
+10.state management
+
+Every time it will treated as a new request so for fetching the same data multiple times we need to make a state behaviour
+
+
+11. jsp is java server page for view purpose and here we can use html,css etc.but jstl is library for reducing development time and avoid code writing
+
+12.MVC
+   MVC is design pattern.model,view,controller for faster development and paralle development
+  Model :data management like entity classes means java objects
+  view : for view purpose
+  controller :provide communication between model and view
+
+13.Qualifier:  remove confilt when accuring autowired.it uses along with @autowired annotation
+
+14:Html5:  no extranal plugins
+           video support
+          canvas for drawing
+          navigate tags for geo locations
+16: Css selectors:
+   Id,Name,Class,*(Universe)
+17:
+yes we can use jsp as a controller along with mvc but servelt as contoller is recomanded.
+
+18.Spring Advantages:
+
+      IOC : Achiving Loosly Coupled
+      DI:parallel development
+     lightWeight: for pojos
+     flexible
+     abstraction on jdbc,jpa
+
+19.IOC :
+    IOC is responsible for creating beans,configuration and it maintains life cycle of beans.it achiving loosecouple Through DI.
+
+
+20.Spring Scopes:
+                 Singleton
+                 prototype
+                 Session
+                 request
+                Application
+  Default its singleton scope.if you want to generate multiple instances inside the container we can make scope as protype.
